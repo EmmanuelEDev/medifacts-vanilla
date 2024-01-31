@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    width: 40%;
+    height: 50vh;
+    background-color: white;
+}
