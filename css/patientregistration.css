@@ -11,5 +11,11 @@ body{
 #box{
     width: 40%;
     height: 50vh;
-    background-color: white;;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    margin: 5%;
 }
