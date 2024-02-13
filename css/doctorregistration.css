@@ -10,7 +10,7 @@ body{
 
 #box{
     width: 40%;
-    height: 50vh;
+    height: 60vh;
     background-color: white;
     display: flex;
     flex-direction: column;
