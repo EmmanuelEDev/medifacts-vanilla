@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./css/profile.css">
+</head>
+<body>
+    <div id="topdiv">
+        <h3 id="logo">Logo</h3>
+        <h1>Medifacts</h1>
+        <img id="logouticon" src="./res/user-circle-icon.png" alt="">
+    </div>
+    <div id="navbardiv">    
+        <div id="navbar">
+            <a href="profile.html">My Profile</a>
+            <a href="">Book an Appointment</a>
+            <a href="">About Medifacts</a>
+        </div>
+    </div>
+    <div id="mainbodydiv">
+        <div id="mainbody">
+            <h3>Fill your details below:</h3>
+            <form action="">
+                <label><b>Date of Birth</b></label><br>
+                <div id="dobdiv">
+                    <select>
+                        <option value="D1">1</option>
+                        <option value="D2">2</option>
+                        <option value="D3">3</option>
+                        <option value="D4">4</option>
+                      </select>
+                    <select>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                      </select>
+                    <select>
+                        <option value="Y1900">1900</option>
+                        <option value="Y1901">1901</option>
+                        <option value="Y1902">1902</option>
+                        <option value="Y1903">1903</option>
+                      </select>
+                </div>
+                <br>
+                <label><b>Height (in cm)</b></label><br>
+                <input type="number" name="height" placeholder="Input your height here" required />
+                <br><br>
+                <label><b>Weight (in kg)</b></label><br>
+                <input type="number" name="weight" placeholder="Input your weight here" required />
+                <br><br>
+                <label><b>Blood Group</b></label><br>
+                <select>
+                    <option value="BGA">A</option>
+                    <option value="BGB">B</option>
+                    <option value="BGAB">AB</option>
+                    <option value="BGO">O</option>
+                 </select>
+                <br><br>
+                <label><b>Are you allergic to any drugs? If yes please enumerate them below:</b></label><br>
+                <textarea name="message" cols="30" rows="5">
+                    
+                </textarea>
+                <br><br>
+
+
+                <button type="submit">Save Profile Details</button>
+                <!-- <input type="submit" value="Save Profile Details" /> -->
+                
+
+
+                <!-- <input type="text" name="first name" placeholder="Type your first name here" required />
+                <br><br>
+                <label><b>Surname</b></label><br>
+                <input type="text" name="surname" placeholder="Type your surname here" required />
+                <br><br>
+                <label><b>NIN</b></label><br>
+                <input type="number" name="nin" placeholder="Enter your NIN here" />
+                <br><br>
+                <label><b>Password</b></label><br>
+                <input type="password" name="password" placeholder="Enter password" required />
+                <br><br>
+                <label><b>Repeat Password</b></label><br>
+                <input type="password" name="psw-repeat" id="psw-repeat" placeholder="Repeat Password" required> 
+                <br><br>
+                <input type="submit" value="Create Account" /> -->
+            </form>
+        </div>
+    </div>
+</body>
+</html>
