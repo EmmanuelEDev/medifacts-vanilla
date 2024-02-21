@@ -25,27 +25,8 @@
             <h3>Fill your details below:</h3>
             <form action="">
                 <label><b>Date of Birth</b></label><br>
-                <div>
-                    <select>
-                        <option value="D1">1</option>
-                        <option value="D2">2</option>
-                        <option value="D3">3</option>
-                        <option value="D4">4</option>
-                      </select>
-                    <select>
-                        <option value="January">January</option>
-                        <option value="February">February</option>
-                        <option value="March">March</option>
-                        <option value="April">April</option>
-                      </select>
-                    <select>
-                        <option value="Y1900">1900</option>
-                        <option value="Y1901">1901</option>
-                        <option value="Y1902">1902</option>
-                        <option value="Y1903">1903</option>
-                      </select>
-                </div>
-                <br>
+                <input type="date" id="birthday" name="birthday">
+                <br><br>
                 <label><b>Height (in cm)</b></label><br>
                 <input type="number" name="height" placeholder="Input your height here" required />
                 <br><br>
@@ -90,7 +71,6 @@
                 <label><b>What was your blood pressure reading?</b></label><br>
                 <input type="text" name="bpr" placeholder="Input your blood pressure here" required />
                 <br><br>
-
                 <button type="submit">Save Profile Details</button>
             </form>
         </div>
