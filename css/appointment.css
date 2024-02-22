@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#div1{
+    width: 100%;
+    height: 70vh;
+    /* background-color: blue; */
+    background-image: url(../res/doctors.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#div1logo{
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+}
+
+#div1body{
+    width: 100%;
+    height: 85%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+#topdiv{
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+}
+
+#logodiv{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+#logo{
+    height: 100%;
+}
+
+#navbar{
+    width: 60%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#logoutdiv{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+#logouticon{
+    height: 85%;
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+#div2{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(106, 106, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#selectdiv{
+    margin-top: 1vh;
+    justify-content: space-around;
+}
+
+button{
+    background-color: aqua;
+    color: white;
+    /* padding: 1vh; */
+    /* border-radius: 25px; */
+}
+
+#div3{
+    width: 100%;
+    height: 60vh;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
