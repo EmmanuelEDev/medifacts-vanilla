@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
-    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" href="./css/editprofile.css">
 </head>
 <body>
     <div id="topdiv">
@@ -13,8 +13,8 @@
         </div>
         <div id="navbar">
             <a href="profile.html">My Profile</a>
-            <a href="">Book an Appointment</a>
-            <a href="">About Medifacts</a>
+            <a href="appointment.html">Book an Appointment</a>
+            <a href="contact.html">Contact Us</a>
         </div>
         <div id="logoutdiv">
             <a href=""><img id="logouticon" src="./res/user-circle-icon.png" alt=""></a>
@@ -47,29 +47,10 @@
                 </textarea>
                 <br><br>
                 <label><b>When did you last check your blood pressure?</b></label><br>
-                <div>
-                    <select>
-                        <option value="D1">1</option>
-                        <option value="D2">2</option>
-                        <option value="D3">3</option>
-                        <option value="D4">4</option>
-                      </select>
-                    <select>
-                        <option value="January">January</option>
-                        <option value="February">February</option>
-                        <option value="March">March</option>
-                        <option value="April">April</option>
-                      </select>
-                    <select>
-                        <option value="Y1900">1900</option>
-                        <option value="Y1901">1901</option>
-                        <option value="Y1902">1902</option>
-                        <option value="Y1903">1903</option>
-                      </select>
-                </div>
-                <br>
+                <input type="date" id="bpreading" name="bpreading">
+                <br><br>
                 <label><b>What was your blood pressure reading?</b></label><br>
-                <input type="text" name="bpr" placeholder="Input your blood pressure here" required />
+                <input type="text" name="bpr" placeholder="Input your blood pressure" required />
                 <br><br>
                 <label><b>Do You Suffer From Diabetes?</b></label><br>
                 <div id="diabetesdiv">
