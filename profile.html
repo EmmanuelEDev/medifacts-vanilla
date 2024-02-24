@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="./css/editprofile.css">
+</head>
+<body>
+    <div id="topdiv">
+        <div id="logodiv">
+            <img id="logo" src="./res/logo.png" alt="">
+        </div>
+        <div id="navbar">
+            <a href="profile.html">My Profile</a>
+            <a href="appointment.html">Book an Appointment</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div id="logoutdiv">
+            <a href=""><img id="logouticon" src="./res/user-circle-icon.png" alt=""></a>
+        </div>
+    </div>
+    <div id="mainbodydiv">
+        <div id="mainbody">
+            <h3>Fill your details below:</h3>
+            <form action="">
+                <label><b>Date of Birth</b></label><br>
+
+                <br><br>
+                <label><b>Height (in cm)</b></label><br>
+
+                <br><br>
+                <label><b>Weight (in kg)</b></label><br>
+
+                <br><br>
+                <label><b>Blood Group</b></label><br>
+                
+                <br><br>
+                <label><b>Are you allergic to any drugs? If yes please enumerate them below:</b></label><br>
+                <textarea name="message" cols="30" rows="5">
+                    
+                </textarea>
+                <br><br>
+                <label><b>When did you last check your blood pressure?</b></label><br>
+                
+                <br><br>
+                <label><b>What was your blood pressure reading?</b></label><br>
+                
+                <br><br>
+                <label><b>Do You Suffer From Diabetes?</b></label><br>
+                <div id="diabetesdiv">
+                    <div id="diabetesyes">
+                        <input type="checkbox" id="diabetesyes" name="diabetesyes" value="diabetes">
+                        <label for="diabetesyes">Yes</label><br>
+                    </div>
+                    <div id="diabetesno">
+
+                    </div>
+                </div>
+                <br><br>
+                <button type="submit">Allow Doctor View Your Profile</button>
+            </form>
+        </div>
+    </div>
+    <div id="footerdiv">
+        <footer>
+            <p>Medifacts - Copyright 2024©. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
